@@ -8,13 +8,13 @@ Usage
 
 In order to run this tool just type the following command
 
-python3 -i interface name -t target device ip
+python3 arp_spoofer.py -i interface name -t target device ip
 
 After running the command this tool will send spoof arp packets to both the target device and the gateway device therefore making ua the man in the middle.
 
 To view the options just type
 
-python3 --help
+python3 arp_spoofer.py --help
 
 
 About myself
